@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to top, rgb(139, 136, 136), rgba(0, 0, 0, 0.719));
+}
+header{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(150, 143, 143));
+    color: white;
+}
+header > h1 {
+    display: inline;
+    position: absolute;
+    top: 50px;
+}
+header > p {
+    text-align: center;
+    display: inline;
+    position: absolute;
+    top: 90px;
+}
+header > div > img {
+    max-width: 300px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    
+}
+div#imagem{
+    margin: 10px;
+    display: inline;
+}
+div#container{
+    padding-top: 10px;
+    padding-left: 150px;
+    width: 600px;
+    margin: auto;
+}
+p#text{
+    text-align: center;
+}
+div > img.mercado{
+    max-width: 300px;
+    max-height: 150px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+section{
+    background-color: lightgray;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.336);
+}
+section > ul, ol {
+    padding-bottom: 10px;
+}
+section > h2, h3 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+section > ul#square{
+    list-style-type:circle;
+}
+section > ol#a{
+    list-style-type: lower-latin;
+}
+footer{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(150, 143, 143));
+    color: white;
+    height: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+    width: 600px;
+    margin: auto;
+    padding: 0px;
+}
+footer > p{
+    text-align: center;
+    padding-top: 25px ;
+}
+@media screen and (max-width: 769px) {
+    section{
+        width: 400px;
+        height: 600px;
+    }
+    footer{
+        width: 400px;
+        height: 30px;
+    }
+    div > img.mercado{
+        max-width: 300px;
+        max-height: 100px;
+        padding-bottom: 15px;
+    }
+    div#container{
+        width: 350px;
+        padding-left: 15px;
+    }
+}
